@@ -1,0 +1,14 @@
+<div class="raw todo">
+  <div class="col s6">
+    <p style="display: inline;">
+      {{if ~done}}
+        <strike><p>{{:todo}}</strike>
+      {{else}}
+        <p>{{:todo}}</p>
+      {{/if}}
+    </p>
+  </div>
+  <div class="col s6">
+    <input type="checkbox" id="todoCheck" {{:done ? "checked" : ""}}>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+{
+  "name": "realtime-todo-list",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Abdul Hannan Ali <abdulhannanali@outlook.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#~0.97.3",
+    "jsrender": "~1.0.0-rc.70"
+  }
+}

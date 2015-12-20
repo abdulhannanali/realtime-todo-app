@@ -1,0 +1,29 @@
+2015-12-19T18:32:56.278581157 4.402593s notice: Recursively removing directory /home/programreneur/Programming/githubRepos/realtime-todo-list/rethinkdb_data/tmp
+2015-12-19T18:32:56.379534163 4.503545s notice: Initializing directory /home/programreneur/Programming/githubRepos/realtime-todo-list/rethinkdb_data
+2015-12-19T18:32:56.379661248 4.503672s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/programreneur/Programming/githubRepos/realtime-todo-list/rethinkdb_data' did not already exist or is empty.)
+2015-12-19T18:32:56.423114468 4.547126s notice: Running rethinkdb 2.2.1~0wily (GCC 5.2.1)...
+2015-12-19T18:32:56.424999285 4.549012s notice: Running on Linux 4.2.0-18-generic x86_64
+2015-12-19T18:32:56.425043672 4.549055s notice: Loading data from directory /home/programreneur/Programming/githubRepos/realtime-todo-list/rethinkdb_data
+2015-12-19T18:32:57.376253253 5.500264s info: Automatically using cache size of 137 MB
+2015-12-19T18:32:57.376830096 5.500841s notice: Listening for intracluster connections on port 29015
+2015-12-19T18:32:57.443950210 5.567961s notice: Listening for client driver connections on port 28015
+2015-12-19T18:32:57.444111994 5.568123s notice: Listening for administrative HTTP connections on port 8080
+2015-12-19T18:32:57.444113021 5.568124s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-12-19T18:32:57.444114589 5.568125s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-12-19T18:32:57.444115155 5.568126s notice: Server ready, "programreneur_Lenovo_G50_80_xud" cf3f2c2f-9b4e-41c5-aa69-31b98dd7cc58
+2015-12-19T18:33:49.071588584 57.195600s info: Table 883c51f6-e5e5-4197-8577-23920f197b5b: Added replica on this server.
+2015-12-19T18:33:50.557467126 58.681478s info: Table 883c51f6-e5e5-4197-8577-23920f197b5b: Starting a new Raft election for term 1.
+2015-12-19T18:33:50.676129878 58.800141s info: Table 883c51f6-e5e5-4197-8577-23920f197b5b: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-19T18:34:14.127668029 82.251679s info: Table 883c51f6-e5e5-4197-8577-23920f197b5b: Configuration is changing.
+2015-12-20T08:21:59.938594384 0.668219s notice: Running rethinkdb 2.2.1~0wily (GCC 5.2.1)...
+2015-12-20T08:21:59.954645085 0.684271s notice: Running on Linux 4.2.0-18-generic x86_64
+2015-12-20T08:21:59.954705460 0.684330s notice: Loading data from directory /home/programreneur/Programming/githubRepos/realtime-todo-list/rethinkdb_data
+2015-12-20T08:22:00.424551630 1.154178s info: Automatically using cache size of 333 MB
+2015-12-20T08:22:00.425517623 1.155142s notice: Listening for intracluster connections on port 29015
+2015-12-20T08:22:00.894842842 1.624468s notice: Listening for client driver connections on port 28015
+2015-12-20T08:22:00.894928337 1.624553s notice: Listening for administrative HTTP connections on port 8080
+2015-12-20T08:22:00.894930173 1.624555s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-12-20T08:22:00.894931347 1.624556s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-12-20T08:22:00.894933157 1.624558s notice: Server ready, "programreneur_Lenovo_G50_80_xud" cf3f2c2f-9b4e-41c5-aa69-31b98dd7cc58
+2015-12-20T08:22:02.741344237 3.470969s info: Table 883c51f6-e5e5-4197-8577-23920f197b5b: Starting a new Raft election for term 2.
+2015-12-20T08:22:02.862517914 3.592143s info: Table 883c51f6-e5e5-4197-8577-23920f197b5b: This server is Raft leader for term 2. Latest log index is 3.

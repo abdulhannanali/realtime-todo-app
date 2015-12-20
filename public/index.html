@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RethinkDB RealTime Todo</title>
+    <link rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div class="container">
+      <h1>TodoList</h1>
+      <div class="todos">
+        <!-- this is a sample todo will be replaced at once when the lovely dirty handwritten javascript loads -->
+        <div class="row todo">
+          <div class="col s6">
+            <p style="display:inline;"><strike>Have I done yoing?</strike></p>
+          </div>
+          <div class="col s6">
+            <input type="checkbox" id="todoCheck">
+            <label for="todoCheck">Done?</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/jsrender/jsrender.min.js"></script>
+    <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
+
+    <script type="text/javascript" src="js/todo.js"></script>
+  </body>
+</html>
